@@ -1,0 +1,12 @@
+{
+    "/api": {
+      "target": "https://api.dev.outreachkart.de",
+      "secure": false,
+      "changeOrigin": true,
+      "logLevel": "debug",
+      "pathRewrite": {
+        "^/api": ""
+      }
+    }
+  }
+  

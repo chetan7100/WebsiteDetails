@@ -60,6 +60,7 @@
           },
           "defaultConfiguration": "production"
         },
+        
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
@@ -69,6 +70,10 @@
             "development": {
               "buildTarget": "my-angular-app:build:development"
             }
+          },
+          "options": {
+            "proxyConfig": "proxy.conf.json",
+            "port": 3000
           },
           "defaultConfiguration": "development"
         },
@@ -97,5 +102,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "2187c55e-552b-4167-8de8-a70ac9a22634"
   }
 }

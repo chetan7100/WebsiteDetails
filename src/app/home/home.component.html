@@ -1,0 +1,96 @@
+
+<!-- home.component.html -->
+<div class="hide" *ngIf="data">
+    <h1>Data from Backend</h1>
+    <pre>{{ data | json }}</pre> <!-- Display the data as JSON for debugging -->
+    <div>Sponsored Post on {{data  }}</div>
+  </div>
+  
+
+
+    <header>
+        <div class="header-left">
+            <img src="logo.png" alt="Logo">
+            <h1>Sponsored Post on trendblog.net</h1>
+        </div>
+        <div class="header-right">
+            <div>
+                <strong>Domain Authority</strong>
+                <span>54</span>
+            </div>
+            <div>
+                <strong>Domain Rating</strong>
+                <span>57</span>
+            </div>
+            <div>
+                <strong>Site Traffic</strong>
+                <span>28.2K+</span>
+            </div>
+            <div>
+                <strong>Spam Score</strong>
+                <span>NA</span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main-content">
+            <h2>TrendBlog</h2>
+            <img src="trendblog-screenshot.png" alt="TrendBlog Screenshot" style="width:100%; height:auto;">
+            <p>Welcome to TrendBlog, your go-to source for technology, gaming, and more. Explore a wide range of content including how-to guides, news, and reviews.</p>
+            <h3>Categories</h3>
+            <p><span style="background-color: #4CAF50; color: white; padding: 5px;">General</span> 
+            <span style="background-color: #FF5722; color: white; padding: 5px;">Casino & Gambling</span> 
+            <span style="background-color: #FFC107; color: white; padding: 5px;">Cryptocurrency</span> 
+            <span style="background-color: #3F51B5; color: white; padding: 5px;">Games</span></p>
+        </div>
+        <aside class="sidebar">
+            <h2>Post Prices</h2>
+            <ul>
+                <li>
+                    <div>
+                        <strong>General Post</strong>
+                        <span>Price Hidden</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <strong>Link Insertion</strong>
+                        <span>Price Hidden</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <strong>Crypto/Finance Post</strong>
+                        <span>Price Hidden</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <strong>Forbidden/Sensitive Post</strong>
+                        <span>Price Hidden</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <strong>Casino Post</strong>
+                        <span>Price Hidden</span>
+                    </div>
+                </li>
+            </ul>
+            <a href="#" class="signup-btn">Sign Up for Prices</a>
+        </aside>
+
+    </main>
+    <div class="guidelines-container">
+      <h2>Publishing Guidelines</h2>
+      <ul>
+          <li><span>No. of Backlinks: 2; Link Validity: Permanent</span></li>
+          <li><span>DoFollow Backlinks</span></li>
+          <li><span>Article Length: 800 - 2000 words</span></li>
+          <li><span>Link Insertion Orders (Niche Edits) are subject to Publisher Approval.</span></li>
+          <li><span>Our team may adjust the title, images, or content for quality, aesthetics, and SEO.</span></li>
+      </ul>
+  </div>
+    <footer class="footer">
+        <p>If you have any enquiries related to guest post mail us at: supportoutreachkart.com</p>
+    </footer>
